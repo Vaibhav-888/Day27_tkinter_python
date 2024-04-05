@@ -1,7 +1,7 @@
 from tkinter import *
 
 window = Tk()
-window.title("This is main window!")
+window.title("This is main/root window!")
 window.minsize(width=500, height=400)
 
 # Label
@@ -20,9 +20,9 @@ def click_button():
     my_label.config(text=new_text)
 
 
-# input
+# Entry
 
-input = Entry()
+input = Entry(width=20)
 input.pack()
 # print(input.get())
 
